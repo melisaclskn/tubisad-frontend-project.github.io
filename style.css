@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+html {
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-align: justify;
+    /*sağ sola hizalı gelsin*/
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/******************************************************************************/
+/*Line clmap*/
+.line_clamp5 {
+    display: -webkit-box;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/******************************************************************************/
+/*Navbar*/
+/* nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: transparent;
+}
+
+.nav-links {
+    display: flex;
+    margin-top: 1.2rem;
+    background-color: rgba(0, 255, 255, 0);
+    justify-content: space-around;
+}
+.nav-links i{
+    color:rgba(0, 0, 0, 0.745);
+    font-size: 20px;
+    margin-right:0.5rem;
+}
+.nav-links li {
+   
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    margin-right:10px;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.nav-links li:hover {
+   background-color: #FF88DC;
+  
+}
+.nav-links li a {
+    color:rgba(0, 0, 0, 0.745);
+    letter-spacing: 2px;
+}
+.nav-links li a :hover{
+    color:blue;
+} */
+/*Burger*/
+/* .burger{
+    display: none;
+}
+.burger div{
+    width:25px;
+    height: 2px;
+    color:#FF88DC;
+    margin:5px;
+    background-color: #FF88DC;
+} */
+
+
+/*.nav-active{
+    /* transform: translateX(0%);
+}
+
+
+
+ */
+ .link {
+    color:rgba(0, 0, 0, 0.745);
+    letter-spacing: 2px;
+}
+.links :hover{
+    color:blue;
+} 
+.links {
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    margin-right:10px;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.navbar-space{
+    display: flex;
+    margin-top: 10px;
+    background-color: rgba(217, 63, 138, 0);
+    justify-content: space-around;
+}
+nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: transparent;
+}
+
+
+
+
+
+/*scroll*/
+.scroll {
+    background: rgb(255,136,220);
+    background: radial-gradient(circle, rgba(255,136,220,1) 0%, rgba(255,200,81,1) 32%, rgba(145,166,255,1) 100%);
+    z-index:1;
+  }
+
+
+
+
+
+
+
+
+
+
+/******************************************************************************/
+/*header */
+header {
+    background-image: url("./img/laptop-ga1a1878fa_1920.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 40rem;
+    z-index: -1;
+    padding-top: 8rem;
+}
+
+#header_id>.container {
+    justify-content: flex-start;
+    width: 100%;
+    height: 60%;
+
+}
+
+#header_id>.container>.title {
+    position: relative;
+    align-items: center;
+    background-color: rgba(239, 239, 239, 0.426);
+    -webkit-border-top-left-radius: 200px;
+    -webkit-border-bottom-right-radius: 200px;
+    -moz-border-radius-topleft: 200px;
+    -moz-border-radius-bottomright: 200px;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    /* text-shadow: 5px 5px 3px rgba(240, 169, 169, 0.648); */
+    width: 60%;
+    height: 100%;
+}
+
+#header_id>.container>.title>h1 {
+    font-size: 3.9em;
+    letter-spacing: 10px;
+    color: rgb(255, 255, 255);
+    /* font-family: 'Mulish', sans-serif; */
+}
+
+.title-button {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.title-button:hover {
+
+    background-color: grey;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+/******************************************************************************/
+/*main */
+
+/* ability*/
+#ability{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(69,69,69,1) 18%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);
+}
+#ability .card {
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.8);
+    margin-right:20px;
+    width: 15em;
+    margin-bottom: 20px;
+  }
+  
+  #ability .card:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
+#ability .card i{
+    font-size: 8em;
+}
+/******************************************************************************/
+/*footer */
