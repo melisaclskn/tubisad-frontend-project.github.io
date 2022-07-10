@@ -37,6 +37,12 @@ p {
     overflow: hidden;
 }
 
+.card-title{
+    font-size: 0.8rem;
+    color:#474747;
+    
+}
+
 /******************************************************************************/
 /*Navbar*/
 /* nav {
@@ -139,8 +145,7 @@ nav {
 
 /*scroll*/
 .scroll {
-    background: rgb(255,136,220);
-    background: radial-gradient(circle, rgb(155, 155, 155) 0%, rgb(94, 94, 94) 32%, rgb(141, 144, 156) 100%);
+    background: rgba(255, 255, 255, 0.937);
     z-index:1;
   }
 
@@ -202,7 +207,7 @@ header {
 
 .title-button:hover {
 
-    background-color: grey;
+    background-color: rgb(162, 148, 148);
     padding: 10px;
     border-style: none;
     border-radius: 10px;
@@ -213,7 +218,9 @@ header {
 
 /* ability*/
 #ability{
-    background-color:#ebe2c9;
+    background-color:#e9eaec;
+    padding-top: 90px;
+    padding-bottom: 50px;
 }
 #ability .card {
     
@@ -299,21 +306,26 @@ header {
  }
 /******************************************************************************/
 /**section-4 start : ataturk *******/
+#section-ataturk{
+    background-color: #5a5a5ae7;
+}
 .quote{
   padding:100px;
 }
-.img-ata{
+.ataturk img{
   background-size: cover;
   background-position: 50% 50%;
   width:100%;
   border-radius: 10px;
   max-width: 100%; 
-   height: auto;
+  width:500px;
+  height: auto;
 }
 
 blockquote {
 	font-weight: 100;
 	font-size: 1rem;
+    color:#d8d8d8;
 	max-width: 400px;
 	line-height: 1.4;
 	position: relative;
@@ -324,7 +336,7 @@ blockquote {
 blockquote:before,
 blockquote:after {
 	position: absolute;
-	color: #f1efe6;
+	color: #d8d8d8;
 	font-size: 10rem;
 	width: 4rem;
 	height: 4rem;
@@ -343,6 +355,7 @@ blockquote:after {
 }
 
 cite {
+    color:#d8d8d8;
 	line-height: 3;
 	text-align: left;
 }

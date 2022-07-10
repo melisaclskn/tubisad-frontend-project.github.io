@@ -33,7 +33,8 @@
 
 <!-- Bootstrap CSS v5.0.2 -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
-
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 <!-- jquery UI -->
 <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
 <link rel="stylesheet" href="/resources/demos/style.css">
@@ -74,13 +75,103 @@
 
         </div>
         <div class="navbar-nav ms-auto">
-          <a href="#" class="nav-item nav-link">Login</a>
+          <button data-bs-toggle="modal" data-bs-target="#modelId" type="button"
+          class="btn btn-link px-3 me-2">
+          <i class="fa-solid fa-user-large" style="color:#ffca04"></i>
+      </button>
+      <button data-bs-toggle="modal" data-bs-target="#registerId" type="button"
+      class="btn btn-link px-3 me-2">
+      <i class="fa-solid fa-user-large" style="color:#ffca04"></i>
+  </button>
         </div>
+         
+        
       </div>
     </div>
   </nav>
+     <!-- Modal : Login -->
+     <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header ">
+                  <h5 class="modal-title">Login</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
 
-  <!-- <nav id="nav" class="navbar navbar-expand-lg navbar-light" style="background-color: transparent;">
+                  <div class="input-group mb-3 d-flex ">
+                      <span class="input-group-text " id="basic-addon1">
+                          <i class="fa-solid fa-envelope"></i>
+                      </span>
+                      <input type="email" class="form-control " placeholder="Enter your email " aria-label="email"
+                          aria-describedby="basic-addon1">
+                  </div>
+                  <div class="input-group mb-3 d-flex">
+                      <span class="input-group-text input" id="basic-addon1">
+                          <i class="fa-solid fa-lock"></i>
+                      </span>
+                      <input type="password" class="form-control input" placeholder="Enter your password"
+                          aria-label="password" aria-describedby="basic-addon1">
+                  </div>
+                  <a href="#" style="font-size: 0.9em;">Forgot Password ?</a>
+              </div>
+              <div class="modal-footer justify-content-center">
+                  <button type="button" class="btn btn-primary">Sign Up</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Modal : register -->
+  <div class="modal fade" id="registerId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header ">
+                <h5 class="modal-title">Login</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <div class="input-group mb-3 d-flex ">
+                    <span class="input-group-text " id="basic-addon1">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <input type="email" class="form-control " placeholder="Enter your email " aria-label="email"
+                        aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3 d-flex">
+                    <span class="input-group-text input" id="basic-addon1">
+                        <i class="fa-solid fa-lock"></i>
+                    </span>
+                    <input type="password" class="form-control input" placeholder="Enter your password"
+                        aria-label="password" aria-describedby="basic-addon1">
+                </div>
+                <a href="#" style="font-size: 0.9em;">Forgot Password ?</a>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-primary">Sign Up</button>
+            </div>
+        </div>
+    </div>
+</div>
+  <!-- <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdrop" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+        </div>
+         
+      </div>
+    </div>
+  </div> -->
+  
+
+  <!-- <nav id="nav" class="navbar navbar-expand-lg navbar-light fi" style="background-color: transparent;">
         <div class="container navbar-space ">
             <a href="#" class="navbar-brand">Brand</a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -135,7 +226,6 @@
     </nav> -->
   <!-- Navbar ends -->
 
-  <!-- Button trigger modal -->
 
 
   <!-- header-start -->
@@ -171,7 +261,26 @@
 
   <!-- main-start -->
   <main>
-
+ <!-- section-2 start : about me -->
+ <section id="section-about">
+  <div class="about-me">
+    <div class="container">
+      <p class="text-uppercase display-6 text-center pt-4"> about Me
+        <div class="line text-center mb-4"></div>
+        </p>
+      <div class="row about-text" >
+        My name is Melisa Çalışkan. I am 22 years old.
+        I graduated from Computer Engineering of Sakarya University. I am interested
+        in frontend technologies. I like to learn
+        new things. I have strong
+        communication skills. I don’t hesitate
+        to acknowledge my mistakes and I
+        focus on solving them.
+       </div>
+    </div>
+  </div>
+</section>
+<!-- section-2 end : about me -->
     <!-- section-1 start : ability -->
     <section id="ability">
       <div class="container">
@@ -368,25 +477,7 @@
       </div>
     </section>
 
-    <!-- section-2 start : about me -->
-    <section id="section-about">
-      <div class="about-me">
-        <div class="container">
-          <p class="text-uppercase display-6 text-center pt-4"> about Me
-            <div class="line text-center mb-4"></div>
-            </p>
-          <div class="row about-text" >
-            I graduated from Computer Engineering of Sakarya University. I am interested
-            in frontend technologies. I like to learn
-            new things. I have strong
-            communication skills. I don’t hesitate
-            to acknowledge my mistakes and I
-            focus on solving them.
-           </div>
-        </div>
-      </div>
-    </section>
-  <!-- section-2 end : about me -->
+   
 
   <!-- section-3 start : parallax scrolling -->
     <section id="parallax">
@@ -407,7 +498,7 @@
    <section id="section-ataturk">
     <div class="ataturk">
       <div class="container">
-        <div class="row " >
+        <div class="row" >
           <p class="text-uppercase display-6 text-center pt-4"> motıvatıon
             <div class="line text-center mb-4"></div>
             </p>
@@ -418,20 +509,30 @@
             </div>
            
           </div>
-          <div class="col-md-6">
-            <img class="img-ata" src="img/ata2.jpg" >
+          <div class="col-md-6 d-flex align-items-center justify-content-center">
+            <img class="img-ata" src="img/ata2.jpg">
           </div>
          </div>
+         <div class="row " >
+          <div class="col-md-6 d-flex align-items-center justify-content-center ">
+            <img class="" src="img/ata3.jpg" style="width: 450px;">
+          </div>
+        <div class="col-md-6">
+          <div class="quote">
+            <blockquote>Çalışmadan, öğrenmeden, yorulmadan rahat yaşamanın yollarını alışkanlık haline getirmiş milletler; evvela haysiyetlerini, sonra hürriyetlerini ve daha sonra da istikballerini kaybetmeye mahkumdurlar.</blockquote>
+            <cite>Mustafa Kemal ATATURK</cite>
+          </div>
+        </div>  
+       </div>
       </div>
     </div>
   </section>
-  <section id="section-ataturk">
+  <!-- <section id="section-ataturk">
     <div class="ataturk">
       <div class="container">
         <div class="row " >
-            </p>
-            <div class="col-md-6">
-              <img class="" src="img/ata3.jpg" height="300px" width="100px">
+            <div class="col-md-6 d-flex align-items-center justify-content-center pb-4">
+              <img class="" src="img/ata3.jpg" style="width: 450px;">
             </div>
           <div class="col-md-6">
             <div class="quote">
@@ -442,7 +543,7 @@
          </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
 <!-- section-4 end : ataturk -->
 
@@ -475,11 +576,12 @@
   <!-- <a id="back_top" href="#header" class="btn btn-warning btn-sm"><i
             class="fa-solid fa-arrow-up-long text-light me-2"></i>TOP </a> -->
 
-  <!-- Bootstrap JavaScript Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
-  <!-- External JS -->
-  <script src="template.js"></script>
+ <!-- Bootstrap JavaScript Libraries -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+ <!-- External JS -->
+ <script src="template.js"></script>
+
 </body>
 
 </html>v
