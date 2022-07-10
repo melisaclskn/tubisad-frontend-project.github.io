@@ -363,3 +363,23 @@ cite {
 /**section-4 end : ataturk *******/
 /******************************************************************************/
 /*footer */
+
+
+
+/*****************************/
+#back_top{
+    position: fixed;
+    right:10px;
+    bottom: 10px;
+    width:5.4rem;
+    background-color:rgb(255, 116, 139) ;
+    border:none;
+
+}
+#back_top:hover{
+    width:7rem;
+    opacity: 0.7;
+}
+#back_top:active{
+    border:#474747;
+}
