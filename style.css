@@ -446,14 +446,21 @@ cite {
 /**section-6 start : contact  *******/
 
 #contact{
-    background-color: #762db9;
-    height: 90vh;
+    background-color: #fff;
+    padding: 4rem;
 }
 #contact-form{
     padding:1.5em;
-    background-color: pink;
+    
+    opacity: .9;
 }
-
+.form-bg{
+    margin-bottom: 30px;
+    background-image: url("./img/form4.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+ 
+}
 
 
 /**section-6 end :contact  *******/
