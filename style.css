@@ -240,11 +240,15 @@ header {
     padding: 10px;
     border-style: none;
     border-radius: 10px;
+    font-size: 15px;
+    
 }
-
+.title-button>a{
+    color:rgba(0, 0, 0, 0.611);
+}
 .title-button:hover {
 
-    background-color: rgb(162, 148, 148);
+    background-color: palevioletred;
     padding: 10px;
     border-style: none;
     border-radius: 10px;
@@ -289,6 +293,10 @@ header {
     display: flex;
     justify-content: center;
 }
+.line-white {
+    display: flex;
+    justify-content: center;
+}
 
 .line:after {
 
@@ -299,13 +307,22 @@ header {
     border-bottom: 0.5px solid #9E9E9E;
 
 }
+.line-white:after {
 
+    content: " ";
+    width: 150px;
+    display: block;
+    justify-content: center;
+    border-bottom: 0.5px solid #fff;
 
+}
+
+/******************************************************************************/
 /*******************About me**/
 #section-about {
     display: flex;
-    justify-content: flex-end;
-    padding-right: 200px;
+    justify-content: center;
+    
     background-image: url("./img/flower.jpg");
     background-size: cover;
     background-position: 50% 50%;
@@ -330,7 +347,7 @@ header {
     text-shadow: 1px 1px rgb(170, 153, 155);
     color: #474747;
     font-weight: 400;
-    padding: 50px;
+    padding: inherit;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -407,27 +424,12 @@ cite {
 }
 
 /**section-4 end : ataturk *******/
-
+/******************************************************************************/
 /**section-5 start :  *******/
 
-
-/* #contact-me {
-   
-    background-color: #E4E8E9;
-    margin:auto;
-    background-image: url("./img/elena-joland-mjeQon0Mh_Q-unsplash.jpg");
-    padding: 20em; 
-    background-position:center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    /* background-position: 50% 50%; */
-/* object-fit: cover;
-    z-index: -3; 
-  } */
 #section_5 {
-    background-color: #DCDEDF;
+    background-color: #F0E4D7;
 }
-
 .social-icon {
     display: flex;
     padding-bottom: 20px ;
@@ -440,21 +442,35 @@ cite {
     display: flex;
     flex-direction: column;
     width: 410px;
-    height: 400px;
     border-radius: 10px;
-    background-color: #BFA2DB;
+    background-color: #fff;
     padding: 20px;
     margin: 10px;
 }
 
 .social h1 {
     font-size: 1.5rem;
+    color:#606060;
 }
-
+.social p{
+    color:#606060;
+}
 .social i {
     font-size: 100px;
-    color: #d8d8d8;
+    color: #ff7a89e2  ;;
     margin: 10px;
+}
+.colorful-button{
+    padding: 10px;
+    border:none;
+    width:150px;
+    border-radius: 5px;
+    color:#fff;
+    background: rgb(255,122,138);
+    background: linear-gradient(90deg, rgba(255,122,138,1) 0%, rgba(255,255,255,1) 100%);
+}
+.colorful-button:hover{
+    opacity: .7;
 }
 
 /**section-5 end :  *******/
@@ -505,6 +521,59 @@ cite {
   border-bottom-right-radius: 0;
 }
 /**section-6 end :contact  *******/
+/******************************************************************************/
+/**section-7  start: icons *******/
+#section-7{
+    background: rgb(218,184,207);
+    background: linear-gradient(0deg, rgba(218,184,207,1) 0%, rgba(255,254,253,1) 100%);
+    padding:50px;
+}
+.icon-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+.icon-box i{
+    font-size: 2em;
+    padding:5px;
+    color:#60606065;
+    margin: 15px;
+}
+.icon-box p{
+    font-size:14px;
+    text-align: center;
+    color:#6060609d;
+    font-weight: 600;
+}
+@media screen and (max-width: 990px) {
+    #section-7{
+        background: rgb(218,184,207);
+        background: linear-gradient(0deg, rgba(218,184,207,1) 0%, rgba(255,254,253,1) 100%);
+        
+    }
+    .icon-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding:20px;
+        margin: 10px;
+        width:70px;
+    }
+    .icon-box p{
+        font-size:15px;
+        text-align: center;
+        color:#6060609d;
+        font-weight: 600;
+    }
+    .icon-box i{
+        font-size: 1.5em;
+        padding:5px;
+        margin: 15px;
+        color:#60606065;
+    }
+  }
+/**section-7 end :icons  *******/
 /******************************************************************************/
 /*footer */
 
