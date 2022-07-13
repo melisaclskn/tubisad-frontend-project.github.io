@@ -159,22 +159,26 @@ nav {
     background-color: transparent;
 }
 
+/******************************************************************************/
+/*Modal login */
 
-
-
-
-/*scroll*/
-.scroll {
-    background: rgba(255, 255, 255, 0.937);
-    z-index: 1;
+.modal-content{
+    border-radius: 50px;
+    background-color:#ffa3aedb;
+}
+.modal-body>.input-group-text>i{
+    color:#ffa3aedb;
 }
 
 
 
 
-
-
-
+/******************************************************************************/
+/*scroll*/
+.scroll {
+    background: rgba(255, 255, 255, 0.937);
+    z-index: 1;
+}
 
 
 
@@ -368,7 +372,7 @@ header {
 /******************************************************************************/
 /**section-4 start : ataturk *******/
 #section-ataturk {
-    background-color: #000;
+    background-color: #9a9a9a17;
 }
 
 .quote {
@@ -383,12 +387,13 @@ header {
     max-width: 100%;
     width: 500px;
     height: auto;
+    
 }
 
 blockquote {
-    font-weight: 100;
+    font-weight: 300;
     font-size: 1rem;
-    color: #d8d8d8;
+    color: #616568;
     max-width: 400px;
     line-height: 1.4;
     position: relative;
@@ -399,7 +404,7 @@ blockquote {
 blockquote:before,
 blockquote:after {
     position: absolute;
-    color: #d8d8d8;
+    color: #616568;
     font-size: 10rem;
     width: 4rem;
     height: 4rem;
@@ -418,7 +423,7 @@ blockquote:after {
 }
 
 cite {
-    color: #d8d8d8;
+    color: #616568;
     line-height: 3;
     text-align: left;
 }
@@ -524,8 +529,9 @@ cite {
 /******************************************************************************/
 /**section-7  start: icons *******/
 #section-7{
-    background: rgb(218,184,207);
-    background: linear-gradient(0deg, rgba(218,184,207,1) 0%, rgba(255,254,253,1) 100%);
+    /* background: rgb(218,184,207);
+    background: linear-gradient(0deg, rgba(218,184,207,1) 0%, rgba(255,254,253,1) 100%); */
+    background: #80808030;
     padding:50px;
 }
 .icon-box{
@@ -574,6 +580,23 @@ cite {
     }
   }
 /**section-7 end :icons  *******/
+/******************************************************************************/
+/**section-8 start :paragraph  *******/
+#section-8{
+    background-color:rgba(216, 112, 147, 0.396);
+    padding:50px;
+    color:#606060;
+}
+#paragraph-id{
+    text-indent: 80px;
+    margin: 20px;
+
+}
+
+
+
+
+/**section-8 end :paragraph  *******/
 /******************************************************************************/
 /*footer */
 
