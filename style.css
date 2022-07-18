@@ -164,7 +164,8 @@ nav {
 
 .modal-content{
     border-radius: 50px;
-    background-color:#ffa3aedb;
+    background: rgb(240,198,212);
+background: linear-gradient(0deg, rgba(240,198,212,1) 0%, rgba(240,240,240,1) 100%);
 }
 .modal-body>.input-group-text>i{
     color:#ffa3aedb;
@@ -218,7 +219,7 @@ header {
 #header_id>.container>.title>h1 {
     font-size: 3.9em;
     letter-spacing: 10px;
-    color: rgb(255, 255, 255);
+    color: #6c6c6cbd;
     /* font-family: 'Mulish', sans-serif; */
 }
 
@@ -301,7 +302,10 @@ header {
     display: flex;
     justify-content: center;
 }
-
+.line-grey {
+    display: flex;
+    justify-content: center;
+}
 .line:after {
 
     content: " ";
@@ -318,6 +322,15 @@ header {
     display: block;
     justify-content: center;
     border-bottom: 0.5px solid #fff;
+
+}
+.line-grey:after {
+
+    content: " ";
+    width: 150px;
+    display: block;
+    justify-content: center;
+    border-bottom: 0.5px solid #616568da;
 
 }
 
@@ -387,6 +400,7 @@ header {
     max-width: 100%;
     width: 500px;
     height: auto;
+    margin-bottom:50px;
     
 }
 
