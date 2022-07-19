@@ -1,9 +1,3 @@
-// $(document).ready(function() {
-//   // Your codes here
-// });
-
-
-
 //when scroll , show back top button.
 if (document.body.scrollTop >= 280 || document.documentElement.scrollTop >= 280) {
 
@@ -23,47 +17,44 @@ $(document).ready(function () {
   $('#back_top').hide();
 });
 /****** */
-// $(function () {
-//   $("#btnSubmit").click(function () {
-//     let email, password;
-//     email = jQuery.trim($("#user_email").val());
-//     password = jQuery.trim($("#user_password").val());
+$(function () {
+  $("#btnSubmit").click(function () {
+    let email, password;
+    email = jQuery.trim($("#user_email").val());
+    password = jQuery.trim($("#user_password").val());
 
 
-//     //validation  email
-//     if (email == "") {
-//       $("#validation_email").html("Email boş geçilemez...")
-//     } else if (regexEmail(email) == false) {
-//       $("#validation_email").html("Uygun formatta email girilmedi exam: deneme@gmail.com")
-//     }
+    //validation  email
+    if (email == "") {
+      $("#validation_email").html("Email boş geçilemez...")
+    } else if (regexEmail(email) == false) {
+      $("#validation_email").html("Uygun formatta email girilmedi exam: deneme@gmail.com")
+    }
 
-//     //regex email
-//     function regexEmail(email) {
-//       let regex = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-//       return regex.test(email);
-//     }
+    //regex email
+    function regexEmail(email) {
+      let regex = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return regex.test(email);
+    }
 
-//     //validation  password
-//     if (password == "") {
-//       $("#validation_password").html("password boş geçilemez...")
-//     } else if (regexPassword(password) == false) {
-//       $("#validation_password").html("Uygun formatta  şifre girilmedi exam: en az 8 karakter")
-//     }
+    //validation  password
+    if (password == "") {
+      $("#validation_password").html("password boş geçilemez...")
+    } else if (regexPassword(password) == false) {
+      $("#validation_password").html("Uygun formatta  şifre girilmedi exam: en az 8 karakter")
+    }
 
-//     //regex email
-//     function regexPassword(password) {
-//       let regex = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/;;
-//       return regex.test(password);
-//     }
-//   })//onclick close
-// }); //document ready close
+    //regex email
+    function regexPassword(password) {
+      let regex = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/;;
+      return regex.test(password);
+    }
+  })//onclick close
+}); //document ready close
 
 
 let date = () => {
 
-  // var x=document.getElementById("date_id");
-  // var date=new Date();
-  // document.getElementById("date_id").innerHTML = date.getDay;
   var x=document.getElementById("date_id");
   var dateObj = new Date();
   var month = dateObj.getUTCMonth() + 1; //months from 1-12
@@ -85,6 +76,4 @@ let date = () => {
     x.style.display = "none";
   }
   $("#date_id").css(cssObject);
-  //autocomplete 
-  //backtotop
 }

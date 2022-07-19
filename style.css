@@ -153,7 +153,6 @@ header {
     -moz-border-radius-bottomright: 200px;
     border-top-left-radius: 200px;
     border-bottom-right-radius: 200px;
-    /* text-shadow: 5px 5px 3px rgba(240, 169, 169, 0.648); */
     width: 60%;
     height: 100%;
 }
@@ -162,7 +161,6 @@ header {
     font-size: 3.9em;
     letter-spacing: 10px;
     color: #6c6c6cbd;
-    /* font-family: 'Mulish', sans-serif; */
 }
 @media screen and (max-width: 700px) {
     #header_id>.container>.title>h1 {
@@ -593,8 +591,6 @@ cite {
     margin: 20px;
 
 }
-
-
 
 
 /**section-8 end :paragraph  *******/
