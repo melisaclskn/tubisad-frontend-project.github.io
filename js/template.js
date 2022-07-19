@@ -2,18 +2,7 @@
 //   // Your codes here
 // });
 
-//when scroll change the color of navbar
-var navbar = document.querySelector('nav')
 
-window.onscroll = function () {
-
-  // pageYOffset or scrollY
-  if (window.pageYOffset > 0) {
-    navbar.classList.add('scroll')
-  } else {
-    navbar.classList.remove('scroll')
-  }
-}
 
 //when scroll , show back top button.
 if (document.body.scrollTop >= 280 || document.documentElement.scrollTop >= 280) {
