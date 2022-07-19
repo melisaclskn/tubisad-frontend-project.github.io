@@ -61,69 +61,7 @@ p {
 }
 
 /******************************************************************************/
-/*Navbar*/
-/* nav {
-    display: flex;
-    position: fixed;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    background-color: transparent;
-}
-
-.nav-links {
-    display: flex;
-    margin-top: 1.2rem;
-    background-color: rgba(0, 255, 255, 0);
-    justify-content: space-around;
-}
-.nav-links i{
-    color:rgba(0, 0, 0, 0.745);
-    font-size: 20px;
-    margin-right:0.5rem;
-}
-.nav-links li {
-   
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding: 10px;
-    margin-right:10px;
-    font-size: 18px;
-    opacity: 0.9;
-}
-
-.nav-links li:hover {
-   background-color: #FF88DC;
-  
-}
-.nav-links li a {
-    color:rgba(0, 0, 0, 0.745);
-    letter-spacing: 2px;
-}
-.nav-links li a :hover{
-    color:blue;
-} */
-/*Burger*/
-/* .burger{
-    display: none;
-}
-.burger div{
-    width:25px;
-    height: 2px;
-    color:#FF88DC;
-    margin:5px;
-    background-color: #FF88DC;
-} */
-
-
-/*.nav-active{
-    /* transform: translateX(0%);
-}
-
-
-
- */
+/*navbar*/
 .link {
     color: rgba(0, 0, 0, 0.745);
     letter-spacing: 2px;
@@ -156,7 +94,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: transparent;
+    background-color:#4747470a;
 }
 
 /******************************************************************************/
@@ -258,7 +196,18 @@ header {
     border-style: none;
     border-radius: 10px;
 }
+.header-icon{
+    display: flex;
+    flex-direction: row;
+}
+.btn-header-icon{
+    color:#474747;
+    border-radius: 10px;
 
+}
+.btn-header-icon:hover{
+    color:#606060;
+}
 /******************************************************************************/
 /*main */
 
@@ -627,6 +576,7 @@ cite {
 
 /*****************************/
 #back_top {
+    display: none;
     position: fixed;
     right: 10px;
     bottom: 10px;
@@ -636,7 +586,6 @@ cite {
     color: rgba(255, 255, 255, 0.888);
 
 }
-
 #back_top:hover {
     width: 7rem;
     opacity: 0.7;

@@ -1,15 +1,15 @@
-if (document.body.scrollTop >= 280 || document.documentElement.scrollTop >= 280) {
-    
-var myNav = document.querySelector("nav");
+//when scroll change the color of navbar
+var navbar = document.querySelector('nav')
 
 window.onscroll = function() {
-  "use strict";
-  if (document.body.scrollTop >= 280 || document.documentElement.scrollTop >= 280) {
-    myNav.classList.add("scroll");
+
+  // pageYOffset or scrollY
+  if (window.pageYOffset > 0) {
+    navbar.classList.add('scroll')
   } else {
-    myNav.classList.remove("scroll");
+    navbar.classList.remove('scroll')
   }
-}};
+}
 
 //when scroll , show back top button.
 if (document.body.scrollTop >= 280 || document.documentElement.scrollTop >= 280) {
@@ -24,7 +24,10 @@ if (document.body.scrollTop >= 280 || document.documentElement.scrollTop >= 280)
       back_top.style.display="none";
     }
   }};
+  $(document).ready(function() {
 
+    $('#back_top').hide();
+  });
   /****** */
   $(function () {
     $("#btnSubmit").click(function () {
