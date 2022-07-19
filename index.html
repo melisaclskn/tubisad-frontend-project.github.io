@@ -81,24 +81,25 @@
       </button>
       <div class="collapse navbar-collapse navbar-space" id="navbarCollapse">
         <div class="navbar-nav links">
-          <a href="#home" class="nav-item nav-link link ">
+          <a href="#header_id" class="nav-item nav-link link ">
             <i class="fa-solid fa-house-chimney"></i>Home</a>
           <a href="#section-about" class="nav-item nav-link link">
             <i class="fa-solid fa-person"></i>
             About Me
           </a>
           <a href="#ability" class="nav-item nav-link link"> <i class="fa-solid fa-trophy"></i>Abilities</a>
+          <a href="#section-ataturk" class="nav-item nav-link link">Motivation</a>
+          <a href="#section_5" class="nav-item nav-link link">Services</a>
           <a href="#contact" class="nav-item nav-link link"> <i class="fa-regular fa-address-card"></i>Contact Me</a>
-
         </div>
         <div class="navbar-nav ms-auto">
           <button data-bs-toggle="modal" data-bs-target="#modelId" type="button" class="btn btn-link px-3 me-2"
             style="text-decoration: none;color:#8a8a8a">
-            Login<i class="fa-solid fa-user-large" style="color:#ffca04"></i>
+            Login
           </button>
           <button data-bs-toggle="modal" data-bs-target="#registerId" type="button" class="btn btn-link px-3 me-2"
             style="text-decoration: none;color:#8a8a8a">
-            Register<i class="fa-solid fa-user-large" style="color:#ffca04"></i>
+            Register
           </button>
         </div>
 
@@ -281,22 +282,22 @@
           <span style="color:#91a6ff;margin:-5px;">e</span>
           <span style="color:#FF88DC;margin:-5px;">r</span>
         </h4>
-       
-          <div id="header-icon">
-              <a href="https://www.linkedin.com/in/melisacaliskan/" target="_blank" class="me-1 btn-header-icon ">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-              <a href="https://github.com/melisaclskn" target="_blank" class="me-1 btn-header-icon ">
-                <i class="fa-brands fa-github-square"></i>
-            </a>
-              <a href="https://www.instagram.com/melisacaliskn/" target="_blank" class="me-1 btn-header-icon  ">
-                <i class="fa-brands fa-instagram-square"></i>
-            </a>
-            
+
+        <div id="header-icon">
+          <a href="https://www.linkedin.com/in/melisacaliskan/" target="_blank" class="me-1 btn-header-icon ">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/melisaclskn" target="_blank" class="me-1 btn-header-icon ">
+            <i class="fa-brands fa-github-square"></i>
+          </a>
+          <a href="https://www.instagram.com/melisacaliskn/" target="_blank" class="me-1 btn-header-icon  ">
+            <i class="fa-brands fa-instagram-square"></i>
+          </a>
+
         </div>
         <button class="title-button mt-4"><a href="#section-about" class="mt-4">who am i &#10068;</a></button>
-     
-    </div>
+
+      </div>
   </header>
   <!-- header-end -->
 
@@ -400,7 +401,7 @@
               <div class="card-text"></div>
             </div>
           </div>
-          <div class="col-md-3 card wow flash animated" data-wow-delay=".40s">
+          <div class="col-md-3 card " data-wow-delay=".40s">
             <i class="fa-brands fa-react text-center mt-4" style="color:#48CEF7"></i>
             <div class="card-body">
               <div class="card-title">REACT</div>
@@ -746,8 +747,13 @@
             <div style="width: 100%"><iframe width="100%" height="435" frameborder="0" scrolling="no" marginheight="0"
                 marginwidth="0"
                 src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=sapanca+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
-                  href="https://www.gps.ie/farm-gps/">agricultural gps</a></iframe></div>
+                  href="https://www.gps.ie/farm-gps/">agricultural gps</a></iframe>
+            </div>
           </div>
+          <div class="col-md-12">
+            <button onclick="date()" class="btn btn-outline-primary" >Date</button>
+            <span id="date_id"></span>
+        </div>
         </div>
       </div>
     </section>
@@ -774,7 +780,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script> -->
   <!-- External JS -->
-  <script src="./js/template.js"></script>
+
   <!-- <script type="text/javascript">
     $( document ).ready(function() {
         $("button.navbar-toggler").click(function(){
@@ -785,3 +791,4 @@
 </body>
 
 </html>
+<script src="./js/template.js"></script>
