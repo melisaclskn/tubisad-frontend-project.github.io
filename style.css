@@ -29,6 +29,13 @@ p {
 }
 
 /******************************************************************************/
+.btn-pink{
+    background-color: rgba(255, 116, 139, 0.901);;
+    border:none;
+}
+.input-group-text>i{
+    color:#474747e8;
+}
 /*Line clmap*/
 .line_clamp5 {
     display: -webkit-box;
