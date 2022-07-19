@@ -79,7 +79,7 @@ p {
 .navbar-space {
     display: flex;
     margin-top: 10px;
-    background-color: rgba(217, 63, 138, 0);
+    background-color: rgba(255, 255, 255, 0.937);
     justify-content: space-around;
 }
 
@@ -90,7 +90,8 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color:#4747470a;
+    background-color:rgba(255, 255, 255, 0.937);
+    z-index:6;
 }
 
 /******************************************************************************/
@@ -112,7 +113,7 @@ background: linear-gradient(0deg, rgba(240,198,212,1) 0%, rgba(240,240,240,1) 10
 /*scroll*/
 .scroll {
     background: rgba(255, 255, 255, 0.937);
-    z-index: 1;
+    z-index: 3;
 }
 
 
@@ -156,7 +157,27 @@ header {
     color: #6c6c6cbd;
     /* font-family: 'Mulish', sans-serif; */
 }
+@media screen and (max-width: 700px) {
+    #header_id>.container>.title>h1 {
+        font-size: 1.5em;
+        letter-spacing: 10px;
+        color: #6c6c6cbd;
+  }
+  #header_id>.container>.title>h4>span{
+    margin:-10;
+    font-size: 15px;
+}
 
+.title-button {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 5px;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 10px;
+    cursor:pointer;
+    
+}
+}
 @media screen and (max-width: 1000px) {
     #header_id>.container>.title {
         position: relative;
@@ -238,6 +259,25 @@ header {
 #ability .card i {
     font-size: 5em;
 }
+@media screen and (max-width: 790px) {
+    #ability .card {
+
+        display: flex;
+        justify-content: center;
+        background-color: #F8F0DF;
+        align-items: center;
+        box-shadow: 10px 10px #BFA2DB;
+        /*box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.8); */
+        margin-right: 20px;
+        width: 6em;
+        height: 8em;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+    #ability .card i {
+        font-size: 3em;
+    }
+  }
 
 /****line*****************************************/
 .line {
@@ -326,6 +366,12 @@ header {
     padding: 2rem;
     opacity: .8;
     color: black;
+}
+@media screen and (max-width: 1000px) {
+    #parallax-parag{
+        font-size: 15px;
+    }
+    
 }
 
 /******************************************************************************/
@@ -473,22 +519,6 @@ cite {
     }
   }
 
-/*workaround*/
-.intl-tel-input {
-  display: table-cell;
-}
-.intl-tel-input .selected-flag {
-  z-index: 4;
-}
-.intl-tel-input .country-list {
-  z-index: 5;
-}
-.input-group .intl-tel-input .form-control {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 0;
-}
 /**section-6 end :contact  *******/
 /******************************************************************************/
 /**section-7  start: icons *******/
