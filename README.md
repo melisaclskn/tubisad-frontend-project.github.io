@@ -21,10 +21,10 @@ The technologies I used are:
 ![Home Page](./img/motivation1.png)
 
 
-![Home Page](./img/motivation2.png)
+![motivation](./img/motivation2.png)
 
 
-![Home Page](./img/icons.png)
+![motivation2](./img/icons.png)
 
 
 ![Home Page](./img/readmore.png)
