@@ -9,7 +9,7 @@ The technologies I used are:
 - WOW.JS
 - FONTAWESOME5
  
-![Home Page](Home.png)
+<!-- ![Home Page](Home.png)
 
 
 ![Home Page](./img/about.png)
@@ -49,4 +49,4 @@ The technologies I used are:
 ![Home Page](./img/ipadmini.png)
 
 ![Home Page](./img/iphone-xr1.png)
-
+ -->
