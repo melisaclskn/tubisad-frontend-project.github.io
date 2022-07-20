@@ -9,7 +9,7 @@ The technologies I used are:
 - WOW.JS
 - FONTAWESOME5
  
-![Home Page](./img/Home.png)
+![Home Page](Home.png)
 
 
 ![Home Page](./img/about.png)
