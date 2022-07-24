@@ -367,7 +367,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 20rem;
+    height: 100%;
     padding: 2rem;
     opacity: .8;
     color: black;
