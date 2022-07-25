@@ -231,6 +231,14 @@ header {
 .btn-header-icon:hover{
     color:#606060;
 }
+@media screen and (max-width: 700px) {
+    .btn-header-icon{
+        color:#474747;
+        border-radius: 10px;
+        font-size: 30px;
+    }
+ 
+}
 /******************************************************************************/
 /*main */
 
