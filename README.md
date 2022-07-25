@@ -9,44 +9,10 @@ The technologies I used are:
 - WOW.JS
 - FONTAWESOME5
  
-<!-- ![Home Page](Home.png)
+ ![Home Page](Home.png)
 
 
 ![Home Page](./img/about.png)
 
 
-![Home Page](./img/ability.png)
 
-
-![Home Page](./img/motivation1.png)
-
-
-![motivation](./img/motivation2.png)
-
-
-![motivation2](./img/icons.png)
-
-
-![Home Page](./img/readmore.png)
-
-
-![Home Page](./img/whatido.png)
-
-
-![Home Page](./img/contact-me.png)
-
-
-![Home Page](./img/footer.png)
-
-##Responsive Design
-
-![Home Page](./img/iphone-xr.png)
-
-
-![Home Page](./img/iphone-se.png)
-
-
-![Home Page](./img/ipadmini.png)
-
-![Home Page](./img/iphone-xr1.png)
- -->
